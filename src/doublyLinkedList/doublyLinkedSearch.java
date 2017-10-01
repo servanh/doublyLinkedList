@@ -27,4 +27,22 @@ public class doublyLinkedSearch {
             System.out.println("Not Found");
         }
     }
+    public int searchPosition(int value)
+    {
+        doublyLinkedList d = doublyLinkedList.listInstance;
+        int i =1;
+        int position = 0;
+        while(d.elementAt(i) != -1)
+        {
+            if(d.elementAt(i) == value)
+            {
+                position=i;
+            }
+            //System.out.println(d.elementAt(i));
+            i++;
+        }
+
+        return position;
+
+    }
 }

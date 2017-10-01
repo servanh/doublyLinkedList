@@ -32,9 +32,7 @@ public class doublyLinkedList {
             BufferedReader bufferedReader =
                     new BufferedReader(fileReader);
 
-            while((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
-            }
+            line = bufferedReader.readLine();
 
             // Always close files.
             bufferedReader.close();
@@ -51,6 +49,11 @@ public class doublyLinkedList {
             // Or we could just do this:
             // ex.printStackTrace();
         }
+
+        String[] lineArray = line.split(" ");
+        String[] charArray = line.split("");
+
+
     }
 
     public Node addAtStart(int data){
