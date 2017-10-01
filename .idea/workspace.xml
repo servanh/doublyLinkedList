@@ -14,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="doublyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doublyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
+            <state relative-caret-position="2006">
               <caret line="118" column="36" lean-forward="true" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -31,6 +31,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doublyLinkedList.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doublyLinkedList.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doublyLinkedDelete.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="doublyLinkedDelete.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedDelete.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -318,7 +328,7 @@
       <updated>1506796379165</updated>
       <workItem from="1506796382784" duration="5019000" />
       <workItem from="1506876401315" duration="7234000" />
-      <workItem from="1506889690477" duration="504000" />
+      <workItem from="1506889690477" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1506889814356</created>
@@ -327,14 +337,22 @@
       <option name="project" value="LOCAL" />
       <updated>1506889814356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first push">
+      <created>1506890196946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506890196946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12757000" />
+    <option name="totallyTimeSpent" value="12885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -463,14 +481,6 @@
     <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/main.java" />
     <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/search.java" />
     <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/delete.java" />
-    <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedDelete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/insertion.java" />
     <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedSearch.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,11 +498,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InputFile_DoublyLinkedList.txt">
+    <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="2006">
+          <caret line="118" column="36" lean-forward="true" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,6 +512,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputFile_DoublyLinkedList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -515,13 +535,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/doublyLinkedList.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="118" column="36" lean-forward="true" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
