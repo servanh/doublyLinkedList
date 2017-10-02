@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6a1ca53-413e-48b6-a3d8-ef9bb69b8f31" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java" afterPath="$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -390,7 +389,7 @@
       <workItem from="1506796382784" duration="5019000" />
       <workItem from="1506876401315" duration="7234000" />
       <workItem from="1506889690477" duration="6376000" />
-      <workItem from="1506898161087" duration="8594000" />
+      <workItem from="1506898161087" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1506889814356</created>
@@ -448,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506924067722</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="completed value parser. still need instruction parser">
+      <created>1506924255998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506924255998</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27223000" />
+    <option name="totallyTimeSpent" value="27235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
