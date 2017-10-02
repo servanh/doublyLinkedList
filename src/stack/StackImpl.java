@@ -21,5 +21,9 @@ public class StackImpl implements Stack {
     {
         return l.getSize();
     }
+    public void viewStack()
+    {
+        l.print();
+    }
 
 }

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class doublyLinkedList {
     int size =0;
@@ -52,6 +52,31 @@ public class doublyLinkedList {
 
         String[] lineArray = line.split(" ");
         String[] charArray = line.split("");
+
+        for(int i=0;i<lineArray.length;i++)
+        {
+            for(int k=0;i<lineArray[i].length();k++) {
+
+
+                if (Character.isDigit(lineArray[i].charAt(k)))
+                {
+                    String append = "";
+                    int insert = 0;
+                    StringBuilder sb = new StringBuilder();
+                    while(Character.isDigit(lineArray[i].charAt(k)))
+                    {
+                        sb.append(k);
+                        if( Character.isDigit(lineArray[i].charAt(k+1)))
+                        {
+                            sb.append(k+1);
+                        }
+
+                        append = (sb.toString());
+                    }
+
+                }
+            }
+        }
 
 
     }
@@ -145,33 +170,6 @@ public class doublyLinkedList {
         }
         System.out.println();
     }
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        parseInput(scan.next());
-       /* listInstance.addAtStart(1);
-        listInstance.addAtStart(2);
-        listInstance.addAtStart(5);
-        listInstance.print();
-        doublyLinkedSearch s = new doublyLinkedSearch();
-        s.search(5);*/
-
-        //Node x = d.addAtStart(2);
-        /*d.addAtStart(1);
-        d.print();
-        d.addAtEnd(3);
-        d.print();
-        d.addAfter(4,x);
-        d.print();
-        d.deleteFromStart();
-        d.print();
-        System.out.println("Element at index 2: "+d.elementAt(2));
-        d.addAtStart(1);
-        d.print();
-        d.deleteFromEnd();
-        d.print();
-        System.out.println("Size of the Linked List: " + d.getSize());
-    */}
 }
 
 
