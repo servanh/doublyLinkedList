@@ -73,6 +73,7 @@ public class doublyLinkedList {
 
                         append = (sb.toString());
                     }
+                     insert = Integer.parseInt(append);
 
                 }
             }
