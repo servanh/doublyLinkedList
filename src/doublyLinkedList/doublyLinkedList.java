@@ -203,7 +203,7 @@ public class DoublyLinkedList {
 
     public void print(){
         Node temp = head;
-        System.out.print("Doubly Linked List: ");
+        System.out.print("Data: ");
         while(temp!=null){
             System.out.print(" " + temp.data);
             temp = temp.next;

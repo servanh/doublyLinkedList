@@ -1,14 +1,23 @@
 package DoublyLinkedList;
 
+/**
+ * This is delete class will delete from start or end or a value depending on input.
+ */
+
 public class DoublyLinkedDelete {
+
 
     DoublyLinkedList d = DoublyLinkedList.listInstance;
     DoublyLinkedSearch s = new DoublyLinkedSearch();
+
+    //deletes specified value from list or stack or queue
     public void deleteValue(int value)
     {
        int position= s.searchPosition(value);
         deleteAtPos(position);
     }
+
+    //Deletes from end of list
     public void deleteFromEnd(){
         if(d.size==0){
             System.out.println("\nList is Empty");
@@ -27,6 +36,8 @@ public class DoublyLinkedDelete {
         }
     }
 
+
+    //deletes value from head
     public void deleteFromStart(){
         if(d.size==0){
             System.out.println("\nList is Empty");
@@ -38,6 +49,7 @@ public class DoublyLinkedDelete {
     }
 
 
+    //deletes at specified node.
     public void deleteAtPos(int pos)
     {
         if (pos == 1)

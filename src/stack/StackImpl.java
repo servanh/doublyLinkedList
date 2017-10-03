@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class StackImpl implements Stack {
-    public DoublyLinkedList l = new DoublyLinkedList();
+    public DoublyLinkedList l = DoublyLinkedList.listInstance;
     public DoublyLinkedDelete d = new DoublyLinkedDelete();
 
     public static ArrayList<Integer> values = new ArrayList<Integer>();
@@ -62,12 +62,13 @@ public class StackImpl implements Stack {
 
                 if(lineArray[i].length() < 3)
                 {
-                    k++;
+                    i++;
                 }
                 if(lineArray[i].equals("pop"))
                 {
                     values.add(0);
                     instructions.add(lineArray[i]);
+                    i++;
                 }
                 else if (Character.isDigit(lineArray[i].charAt(k)))
                 {

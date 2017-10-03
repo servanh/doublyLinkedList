@@ -1,6 +1,12 @@
 package DoublyLinkedList;
 
+
+/**
+ * this search function is implemented to search at position or specified value.
+ */
 public class DoublyLinkedSearch {
+
+    //searches specified value
     public void search(int value)
     {
 
@@ -27,6 +33,8 @@ public class DoublyLinkedSearch {
             System.out.println("Not Found");
         }
     }
+
+    //searches at specified node
     public int searchPosition(int value)
     {
         DoublyLinkedList d = DoublyLinkedList.listInstance;

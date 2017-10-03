@@ -8,14 +8,18 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
+/**
+ * Simple Circular Queue class implemented using functions in DoublyLinkedList.
+ */
 public class QueueImpl implements Queue {
-    DoublyLinkedList l = new DoublyLinkedList();
+    DoublyLinkedList l = DoublyLinkedList.listInstance;
     DoublyLinkedDelete d = new DoublyLinkedDelete();
 
     public static ArrayList<Integer> values = new ArrayList<Integer>();
     public static ArrayList<String> instructions = new ArrayList<String>();
 
-
+    //Parses input and saves to parallel value and instruction arrayLists.
     @SuppressWarnings("Duplicates")
     public static void parseInput(String fileName)
     {
@@ -63,12 +67,13 @@ public class QueueImpl implements Queue {
 
                 if(lineArray[i].length() < 3)
                 {
-                    k++;
+                    i++;
                 }
                 if(lineArray[i].equals("del"))
                 {
                     values.add(0);
                     instructions.add(lineArray[i]);
+                    i++;
                 }
                 else if (Character.isDigit(lineArray[i].charAt(k)))
                 {
@@ -106,6 +111,8 @@ public class QueueImpl implements Queue {
 
     }
 
+
+    //runs parsed instructions
     public static void runInstructions()
     {
         QueueImpl q = new QueueImpl();
