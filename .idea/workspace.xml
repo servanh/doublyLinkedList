@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6a1ca53-413e-48b6-a3d8-ef9bb69b8f31" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/program1.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java" afterPath="$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="doublyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doublyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,14 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/program1.java">
+      <file leaf-file-name="doublyLinkedListMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/doublyLinkedListMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,8 +174,9 @@
         <option value="$PROJECT_DIR$/src/queue/QueueImpl.java" />
         <option value="$PROJECT_DIR$/src/stack/StackImpl.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/program1.java" />
         <option value="$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/program1.java" />
+        <option value="$PROJECT_DIR$/src/doublyLinkedListMain.java" />
       </list>
     </option>
   </component>
@@ -224,18 +225,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="doublyLinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="program1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="program1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -269,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.program1">
+  <component name="RunManager" selected="Application.doublyLinkedListMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -351,14 +340,14 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="program1" type="Application" factoryName="Application" temporary="true">
+    <configuration name="doublyLinkedListMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="program1" />
+      <option name="MAIN_CLASS_NAME" value="doublyLinkedListMain" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -372,7 +361,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.program1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.doublyLinkedListMain" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +378,7 @@
       <workItem from="1506796382784" duration="5019000" />
       <workItem from="1506876401315" duration="7234000" />
       <workItem from="1506889690477" duration="6376000" />
-      <workItem from="1506898161087" duration="8606000" />
+      <workItem from="1506898161087" duration="14991000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1506889814356</created>
@@ -454,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506924255998</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="completed value parser. still need instruction parser">
+      <created>1506924266004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1506924266004</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27235000" />
+    <option name="totallyTimeSpent" value="33620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
@@ -509,7 +505,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -785,20 +781,26 @@
     <entry file="file://$PROJECT_DIR$/src/program1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doublyLinkedList/doublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/doublyLinkedListMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

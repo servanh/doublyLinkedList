@@ -11,8 +11,8 @@ public class doublyLinkedList {
     int size =0;
     Node head = null;
     Node tail = null;
-    public ArrayList<Integer> values = new ArrayList<Integer>();
-    public ArrayList<String> instructions = new ArrayList<String>();
+    public static ArrayList<Integer> values = new ArrayList<Integer>();
+    public static ArrayList<String> instructions = new ArrayList<String>();
 
     public static doublyLinkedList listInstance = new doublyLinkedList();
 
@@ -55,9 +55,13 @@ public class doublyLinkedList {
 
         for(int i=0;i<lineArray.length;i++)
         {
-            for(int k=0;i<lineArray[i].length();k++) {
 
+            for(int k=0;k<lineArray[i].length()-1;k++) {
 
+                if(lineArray[i].length() < 3)
+                {
+                    k++;
+                }
                 if (Character.isDigit(lineArray[i].charAt(k)))
                 {
                     String append = "";
@@ -65,21 +69,53 @@ public class doublyLinkedList {
                     StringBuilder sb = new StringBuilder();
                     while(Character.isDigit(lineArray[i].charAt(k)))
                     {
-                        sb.append(k);
-                        if( Character.isDigit(lineArray[i].charAt(k+1)))
-                        {
-                            sb.append(k+1);
-                        }
+                        sb.append(lineArray[i].charAt(k));
+                        k++;
 
-                        append = (sb.toString());
                     }
+                    append = (sb.toString());
                      insert = Integer.parseInt(append);
+                     values.add(insert);
 
+                }
+                else if(Character.isAlphabetic(lineArray[i].charAt(k)))
+                {
+                    String append = "";
+                    StringBuilder sb = new StringBuilder();
+                    while(k<lineArray[i].length() &&  Character.isAlphabetic(lineArray[i].charAt(k)) )
+                    {
+                        sb.append(lineArray[i].charAt(k));
+                        k++;
+
+                    }
+                    append = (sb.toString());
+                    instructions.add(append);
                 }
             }
         }
 
 
+
+    }
+    public static void runInstructions()
+    {
+        doublyLinkedDelete d = new doublyLinkedDelete();
+        doublyLinkedSearch s = new doublyLinkedSearch();
+        for(int i=0;i<values.size();i++)
+        {
+            if(instructions.get(i).equals("in"))
+            {
+                listInstance.addAtStart(values.get(i));
+            }
+            else if(instructions.get(i).equals("del"))
+            {
+                d.deleteValue(values.get(i));
+            }
+            else if(instructions.get(i).equals("sch"))
+            {
+                s.search(values.get(i));
+            }
+        }
     }
 
     public Node addAtStart(int data){
