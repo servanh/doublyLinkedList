@@ -1,9 +1,9 @@
-package doublyLinkedList;
+package DoublyLinkedList;
 
-public class doublyLinkedDelete {
+public class DoublyLinkedDelete {
 
-    doublyLinkedList d = doublyLinkedList.listInstance;
-    doublyLinkedSearch s = new doublyLinkedSearch();
+    DoublyLinkedList d = DoublyLinkedList.listInstance;
+    DoublyLinkedSearch s = new DoublyLinkedSearch();
     public void deleteValue(int value)
     {
        int position= s.searchPosition(value);

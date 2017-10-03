@@ -1,4 +1,4 @@
-package stack;
+package Stack;
 
 public interface Stack {
     void push(int value);

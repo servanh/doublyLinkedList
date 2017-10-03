@@ -1,10 +1,10 @@
-package doublyLinkedList;
+package DoublyLinkedList;
 
-public class doublyLinkedSearch {
+public class DoublyLinkedSearch {
     public void search(int value)
     {
 
-        doublyLinkedList d = doublyLinkedList.listInstance;
+        DoublyLinkedList d = DoublyLinkedList.listInstance;
         int i =1;
         int verify = 0;
         while(d.elementAt(i) != -1)
@@ -29,7 +29,7 @@ public class doublyLinkedSearch {
     }
     public int searchPosition(int value)
     {
-        doublyLinkedList d = doublyLinkedList.listInstance;
+        DoublyLinkedList d = DoublyLinkedList.listInstance;
         int i =1;
         int position = 0;
         while(d.elementAt(i) != -1)

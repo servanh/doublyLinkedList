@@ -1,16 +1,12 @@
 import java.util.Scanner;
-import doublyLinkedList.doublyLinkedList;
-import doublyLinkedList.doublyLinkedDelete;
-import doublyLinkedList.doublyLinkedSearch;
-import queue.QueueImpl;
-import stack.StackImpl;
+import DoublyLinkedList.DoublyLinkedList;
 
 
 
 
-public class doublyLinkedListMain{
+public class DoublyLinkedListMain{
 
-    static doublyLinkedList l = doublyLinkedList.listInstance;
+    static DoublyLinkedList l = DoublyLinkedList.listInstance;
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         l.parseInput(scan.next());

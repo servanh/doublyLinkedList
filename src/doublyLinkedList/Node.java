@@ -1,5 +1,5 @@
-package doublyLinkedList;
-import doublyLinkedList.doublyLinkedList;
+package DoublyLinkedList;
+import DoublyLinkedList.DoublyLinkedList;
 
 public class Node {
 

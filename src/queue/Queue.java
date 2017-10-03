@@ -1,4 +1,4 @@
-package queue;
+package Queue;
 
 public interface Queue {
     void enQueue(int value);

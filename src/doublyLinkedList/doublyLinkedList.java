@@ -1,4 +1,4 @@
-package doublyLinkedList;
+package DoublyLinkedList;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,15 +7,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-public class doublyLinkedList {
+public class DoublyLinkedList {
     int size =0;
     Node head = null;
     Node tail = null;
     public static ArrayList<Integer> values = new ArrayList<Integer>();
     public static ArrayList<String> instructions = new ArrayList<String>();
 
-    public static doublyLinkedList listInstance = new doublyLinkedList();
+    public static DoublyLinkedList listInstance = new DoublyLinkedList();
 
+        @SuppressWarnings("Duplicates")
     public static void parseInput(String fileName)
     {
 
@@ -33,6 +34,7 @@ public class doublyLinkedList {
                     new BufferedReader(fileReader);
 
             line = bufferedReader.readLine();
+            System.out.println(line);
 
             // Always close files.
             bufferedReader.close();
@@ -97,10 +99,11 @@ public class doublyLinkedList {
 
 
     }
+    @SuppressWarnings("Duplicate")
     public static void runInstructions()
     {
-        doublyLinkedDelete d = new doublyLinkedDelete();
-        doublyLinkedSearch s = new doublyLinkedSearch();
+        DoublyLinkedDelete d = new DoublyLinkedDelete();
+        DoublyLinkedSearch s = new DoublyLinkedSearch();
         for(int i=0;i<values.size();i++)
         {
             if(instructions.get(i).equals("in"))
